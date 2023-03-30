@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+/* GLOBAL STYLING */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    /* ## Colors */
+    /* ### Primary */
+    --Strong-Cyan-- : #26BAA4;
+    --Light-Blue-- : #6173FF;
+
+    /* ### Neutral */
+    --Darkish-Grayish-Blue-- : #4C545D;
+    --Grayish-Blue-- : #9FABB2;
+}
+html{
+    scroll-behavior: smooth;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+}
+
+/* ## Typography */
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* HEADER SECTION */
+#header{
+    padding: 40px 0;
+    background-image: url(/Assets/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#header img{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 20px;
+}
+#header h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--Darkish-Grayish-Blue--);
+    margin-bottom: 25px;
+}
+#header p{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--Grayish-Blue--);
+    margin-bottom: 20px;
+}
+#header .btn-download{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#header .btn-IOS{
+    cursor: pointer;
+    background: var(--Strong-Cyan--);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    margin-right: 10px;
+    filter: drop-shadow(1px 1px 15px var(--Strong-Cyan--));
+}
+#header .btn-Mac{
+    cursor: pointer;
+    background: var(--Light-Blue--);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 10px;
+    filter: drop-shadow(1px 1px 15px var(--Light-Blue--));
+}
+
+
+/* HERO SECTION */
+#hero{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#hero h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--Darkish-Grayish-Blue--);
+    margin-bottom: 25px;
+}
+#hero p{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--Grayish-Blue--);
+    margin-bottom: 50px;
+}
+#hero .hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    left: -250px;
+}
+#hero .hero-container img{
+    width: 50%;
+    height: 100%;
+}
+#hero .content{
+    text-align: justify;
+}
+#hero .content h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--Darkish-Grayish-Blue--);
+    margin-bottom: 20px;
+}
+
+
+/* ACCESS SECTION */
+#access{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#access h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--Darkish-Grayish-Blue--);
+    margin-bottom: 25px;
+}
+#access p{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--Grayish-Blue--);
+    margin-bottom: 50px;
+}
+
+
+/* WORK SECTION */
+#work{
+    margin-bottom: 100px;
+}
+#work h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--Darkish-Grayish-Blue--);
+    margin-bottom: 25px;
+    text-align: center;
+}
+#work p{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--Grayish-Blue--);
+    margin-bottom: 50px;
+    text-align: center;
+}
+#work .work-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.work-content{
+    text-align: center;
+}
+.work-content img{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+.work-content h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--Darkish-Grayish-Blue--);
+    margin-bottom: 10px;
+}
+.work-content span{
+    font-size: 10px;
+    font-weight: 300;
+    color: var(--Grayish-Blue--);
+    margin-bottom: 10px;
+}
+
+
+/* COMPANY SECTION */
+#company{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+
+/* CLIP SECTION */
+#clip{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#clip h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--Darkish-Grayish-Blue--);
+    margin-bottom: 25px;
+}
+#clip p{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--Grayish-Blue--);
+    margin-bottom: 20px;
+}
+#clip .btn-download{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#clip .btn-IOS{
+    cursor: pointer;
+    background: var(--Strong-Cyan--);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    margin-right: 10px;
+    filter: drop-shadow(1px 1px 15px var(--Strong-Cyan--));
+}
+#clip .btn-Mac{
+    cursor: pointer;
+    background: var(--Light-Blue--);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 10px;
+    filter: drop-shadow(1px 1px 15px var(--Light-Blue--));
+}
+
+
+/* FOOTER SECTION */
+footer{
+    background: gainsboro;
+    padding: 40px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+}
+footer .col a{
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--Grayish-Blue--);
+    margin-bottom: 15px;
+    transition: .3s ease-in-out;
+}
+footer .col a:hover{
+    cursor: pointer;
+    color: var(--Strong-Cyan--);
+}
+footer .social i{
+    color: var(--Grayish-Blue--);
+    margin: 0 10px;
+    transition: .3s ease-in-out;
+}
+footer .social i:hover{
+    cursor: pointer;
+    color: var(--Strong-Cyan--);
+    transform: scale(1.5);
+}
+
+
+
+
+/* ANIMATION */
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateZ(-100%);
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.app-hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(50%);
+    transition: all 1s;
+}
+.app-show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+
+
+
+
+
+
+
+/* MEDIA SECTION */
+@media (max-width: 375px) {
+    #header {
+        background-image: url(/Assets/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    #header, #hero, #access, #work, #clip, #company{
+        padding: 60px 20px;
+    }
+    #header img {
+        text-align: center;
+        width: 30%;
+        height: 30%;
+        margin-bottom: 20px;
+    }
+    #header, #hero, #access, #work, #clip h2 {
+        font-size: 36px;
+        font-weight: 600;
+        color: var(--Darkish-Grayish-Blue--);
+        margin-bottom: 25px;
+    }
+    #header, #hero, #access, #work, #clip p {
+        font-size: 12px;
+        font-weight: 300;
+        color: var(--Grayish-Blue--);
+        margin-bottom: 20px;
+        letter-spacing: 1.5px;
+    }
+    #header div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #header .btn-IOS {
+        margin-bottom: 10px;
+        margin-right: 0;
+        padding: 10px 80px;
+    }
+    #header .btn-Mac {
+        margin-left: 0;
+        padding: 10px 80px;
+    }
+    #hero .hero-container img {
+        width: 80%;
+        height: 80%;
+        margin-bottom: 25px;
+    }
+    #hero .hero-container {
+        display: flex;
+        flex-direction: column;
+        left: 0;
+    }
+    #hero .content {
+        text-align: center;
+    }
+    #access img{
+        width: 100%;
+        height: 100%;
+    }
+    #work .work-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .work-content h3 {
+        font-size: 22px;
+    }
+    .work-content span {
+        font-size: 16px;
+    }
+    #company {
+        flex-direction: column;
+    }
+    #company img{
+        margin-bottom: 50px;
+    }
+    #clip div{
+        display: flex;
+        flex-direction: column;
+    }
+    #clip .btn-IOS {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    #clip .btn-Mac {
+        margin-left: 0;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer img{
+        margin-bottom: 15px;
+    }
+    footer .col{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+}
